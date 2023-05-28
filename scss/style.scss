@@ -14,3 +14,16 @@
 .btn-false {
  @extend .btn;
 }
+
+
+.batman {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 5px;
+}
+
+.batman img{
+  width: 100%;
+  height: 100%;
+}
